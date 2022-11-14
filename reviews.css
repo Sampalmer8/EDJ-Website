@@ -1,0 +1,114 @@
+html {
+    background-color: #3cdddc;
+  }
+  
+  body {
+    width: 700px;
+    margin: auto;
+    background-color: #139999;
+    padding: 25px;
+    margin: auto;
+  }
+
+  a:hover {
+    color: #0c4455;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  #review {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+  }
+
+  #pageTitle {
+    background-color: #116b6b;
+    margin: auto;
+    width: 400px;
+    padding: 0.1px;
+    border-radius: 10px;
+  }
+  
+  #body {
+    text-align: center;
+    margin: auto;
+  }
+  
+  #setup {
+      border-radius: 20px;
+  }
+
+  #div1 {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+  }
+  
+  #div2 {
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+  }
+  
+  #div3 {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+  }
+
+  #div4 {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+  }
+  
+  /* Dropdown */
+  .dropbtn {
+      background-color: #3498DB;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #2980B9;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  
+    .dropdown-content a:hover {
+      color: #2980B9;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
