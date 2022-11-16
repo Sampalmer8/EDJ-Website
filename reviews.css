@@ -14,6 +14,27 @@ html {
     color: #0c4455;
   }
 
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #slogan {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+  }
+
+  a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
   .checked {
     color: orange;
   }
@@ -27,7 +48,7 @@ html {
   #pageTitle {
     background-color: #116b6b;
     margin: auto;
-    width: 400px;
+    width: 450px;
     padding: 0.1px;
     border-radius: 10px;
   }

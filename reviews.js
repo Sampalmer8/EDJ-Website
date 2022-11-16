@@ -1,5 +1,3 @@
-document.getElementById("dropMain").addEventListener("click", myFunction);
-
 // Dropdown List
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");

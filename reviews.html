@@ -1,56 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>EDJ</title>
-        <link rel="stylesheet" href="reviews.css">
-        <script defer src="reviews.js"></script>
-        <link rel="icon" 
-        type="image/png" 
-        href="img/logo.PNG">
-    </head>
-    <body>
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Navigation</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="about.html">About Ethan</a>
-              <a href="contact.html">Contact</a>
-              <a href="reviews.html">Customer Reviews</a>
-            </div>
-        </div>
+  <head>
+    <title>EDJ</title>
+    <link rel="stylesheet" href="reviews.css" />
+    <script defer src="reviews.js"></script>
+    <link rel="icon" type="image/png" href="img/logo.PNG" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Navigation</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Ethan</a>
+        <a href="contact.html">Contact</a>
+        <a href="reviews.html">Customer Reviews</a>
+      </div>
+    </div>
 
-        <div id="body">
-            <div id="pageTitle">
-                <h1><img src="img/logo.PNG" alt="EDJ Logo" width="50px"> Customer Reviews <img src="img/logo.PNG" alt="EDJ Logo" width="50px"></h1>
-            </div>
-            <h2>What do others think?</h2>
+    <div id="body">
+      <div id="pageTitle">
+        <h1>
+          <img src="img/logo.PNG" alt="EDJ Logo" width="50px" /> Customer
+          Reviews <img src="img/logo.PNG" alt="EDJ Logo" width="50px" />
+        </h1>
+      </div>
+      <h2 id="slogan">What do others think?</h2>
 
+      <p>
+        <img id="setup" src="img/logo.PNG" alt="Event Setup" width="300px" />
+      </p>
 
-            <p><img id="setup" src="img/logo.PNG" alt="Event Setup" width="300px"></p>
+      <hr />
 
-            <hr>
+      <h2>Leave your review here:</h2>
+      <h3>
+        <a href="https://forms.gle/u6zePqf1TWrZ5fwm8" target="_blank"
+          >Customer Review Form</a
+        >
+      </h3>
 
-            <h2>Leave your review here: </h2>
-            <h3><a href="https://forms.gle/u6zePqf1TWrZ5fwm8" target="_blank">Customer Review Form</a></h3>
+      <br />
+      <hr />
+      <br />
 
-            <br>
-            <hr>
-            <br>
+      <h1>Customer Reviews:</h1>
 
-            <h1>Customer Reviews:</h1>
+      <h2>James Davis:</h2>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
 
-            <h2>James Davis:</h2>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
 
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-
-            <div id="review">
-            <p>Great service! The DJ was prepared and had a perfect schedule for the event. The music selection was ok but some weren't exactly what I expected for the specific event.</p>
-            </div>
-        </div>
-    </body>
+      <div id="review">
+        <p>
+          Great service! The DJ was prepared and had a perfect schedule for the
+          event. The music selection was ok but some weren't exactly what I
+          expected for the specific event.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
